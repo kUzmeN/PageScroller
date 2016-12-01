@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <string name="btnSaveLog">Save logcat</string>
+</resources>

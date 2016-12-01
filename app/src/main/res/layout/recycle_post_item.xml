@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="50dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rvPostsItemId"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="#ff000000"
+        android:gravity="center_horizontal|bottom"
+        android:text="5"
+        android:textColor="#f5dfa4"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:typeface="serif"></TextView>
+
+    <TextView
+        android:id="@+id/rvPostsItemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="#ff000000"
+        android:gravity="center|center_vertical"
+        android:text="Some Title"
+        android:textColor="#d78475"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:typeface="serif"></TextView>
+
+</LinearLayout>
